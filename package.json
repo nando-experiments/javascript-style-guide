@@ -1,0 +1,35 @@
+{
+  "name": "nandomoreira-eslint-config-base",
+  "version": "0.0.1",
+  "description": "My JS ESLint config, following my styleguide",
+  "main": ".eslintrc.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide"
+  ],
+  "scripts": {
+    "publish:pa": "npm version patch && npm publish",
+    "publish:mi": "npm version minor && npm publish",
+    "publish:ma": "npm version major && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandomoreirame/javascript-style-guide.git"
+  },
+  "author": "Fernando Moreira <nandomoreira.me@gmail.com> (https://nandomoreira.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nandomoreirame/javascript-style-guide/issues"
+  },
+  "homepage": "https://github.com/nandomoreirame/javascript-style-guide#readme",
+  "dependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
