@@ -1,6 +1,6 @@
 {
-  "name": "nandomoreira-eslint-config-base",
-  "version": "0.0.2",
+  "name": "eslint-config-nandomoreira",
+  "version": "0.0.1",
   "description": "My JS ESLint config, following my styleguide",
   "main": ".eslintrc.js",
   "keywords": [
